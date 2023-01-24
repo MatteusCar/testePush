@@ -2,7 +2,10 @@
 APPLICATION = nimble_gatt
 
 # If no BOARD is found in the environment, use this default:
-BOARD ?= nrf52dk
+BOARD ?= pulga
+
+# default serial port
+PORT ?= /dev/ttyUSB0
 
 # This has to be the absolute path to the RIOT base directory:
 RIOTBASE ?= $(CURDIR)/../..
